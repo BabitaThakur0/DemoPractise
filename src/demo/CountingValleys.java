@@ -6,7 +6,8 @@ public class CountingValleys {
 
 	public static void main(String[] args) {
 		/*
-		 The hiker first enters a valley  units deep. Then they climb out and up onto a mountain  units high. Finally, the hiker returns to sea level and ends the hike.
+		 The hiker first enters a valley  units deep. Then they climb out and up onto a mountain  units high. 
+		 Finally, the hiker returns to sea level and ends the hike.
      Sample Input
 
       8

@@ -6,12 +6,7 @@ import java.util.Scanner;
 Given a string s, return true if it is a
 palindrome, or false otherwise
      
-     Example 1:
-     Input: S = "A man, a plan, a canal: Panama"
-     Output: true
-      
-      Explanation:
-      "amanaplanacanalpanama" is a palindrome
+     A
     
     Example 2:
       Input: S = "race a car"

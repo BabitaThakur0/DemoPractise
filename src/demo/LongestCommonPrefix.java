@@ -36,7 +36,7 @@ public class LongestCommonPrefix {
 			{
 				//System.out.println("indexOf(prefix)--->"+strs[i].indexOf(prefix));
 			prefix = prefix.substring(0, prefix.length()-1);
-			System.out.println("prefix --->"+prefix );
+			System.out.println("prefix +++--->"+prefix );
 			}
 		}
 		return prefix;

@@ -21,6 +21,8 @@ public class ReverseString_19 {
 		end--;
 		
 		}
+		String st = new String(ch);
+		System.out.println("string value"+ st);
 		System.out.println("Elements = ");
 	      for (int i = 0; i < ch.length; i++) 
 	         System.out.print(ch[i]);

@@ -15,7 +15,7 @@ public class CompareHashMap {
 		map2.put(3, "C");
 		map2.put(2, "B");
 		map2.put(1, "A");
-		//System.out.println("Result : "+map1.equals(map2));
+		System.out.println("Result 1 : "+map1.equals(map2));
 		
 		HashMap<Integer, String> map4 = new HashMap<Integer, String>();
 		map4.put(4, "D");
@@ -26,9 +26,9 @@ public class CompareHashMap {
 		//Remove duplicate from hashmap;
 		//Find missing key from hashmap;
 		combmap.addAll(map4.keySet());
-		System.out.println("Result : "+combmap);
+		System.out.println("Result 2 : "+combmap);
 		combmap.removeAll(map1.keySet());
-		System.out.println("Result : "+combmap);
+		System.out.println("Result 3 : "+combmap);
 	    //compare the hasmap by value;
 		
 		HashMap<Integer, String> map5 = new HashMap<Integer, String>();

@@ -24,7 +24,6 @@ public class subListofTwoList {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
 		System.out.println("Etner the number of n:");
 		int n = sc.nextInt();
 		int[] arr1 = new int[n]; 
@@ -33,16 +32,14 @@ public class subListofTwoList {
 		for(int i = 0; i<n; i++)
 		{
 		 arr1[i] = sc.nextInt();
-		
-	}
+		}
 		System.out.println("Etner array2 :");
 		for(int i = 0; i<n; i++)
 		{
 		 arr2[i] = sc.nextInt();
-		
-	}
+		}
 		System.out.println("The prefix character" + findDifference (arr1,arr2));
-	}
+	    }
 
 	public static List<List<Integer>> findDifference(int[] arr1, int[] arr2) {
 		List<List<Integer>> list = new ArrayList<> ();
@@ -52,17 +49,21 @@ public class subListofTwoList {
 		for(int i=0;i<arr1.length;i++)
 		{
 			set.add(arr1[i]);
+			System.out.println("set :"+set);
 			set1.add(arr1[i]);
+			System.out.println("set1 :"+set1);
 		}
 		for(int j=0;j<arr2.length;j++)
 		{
 			if(set.contains(arr2[j]));
 			{
 				set2.add(arr2[j]);
+				System.out.println("set2 :"+set2);
 			}
 		 
 			{
 				set1.remove(arr2[j]);
+				System.out.println("set1 :"+set1);
 			
 		}
 		}

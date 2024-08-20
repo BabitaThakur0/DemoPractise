@@ -14,7 +14,6 @@ public class namephoneNumber {
 	for(int i =0;i<n; i++)
 	{
 		System.out.println("Enter name and phone no :");
-		
 		String name = sc.nextLine();
 		int phoneNo = sc.nextInt();
 		myMap.put(name, phoneNo);

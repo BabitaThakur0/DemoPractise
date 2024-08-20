@@ -37,10 +37,6 @@ public class StrongPassword {
 		System.out.println("Enter the password :");
 		String password = sc.next();
 		System.out.println("Validate Password :"+ValidatePassword(n,password));
-		
-		
-		
-		
 
 	}
 

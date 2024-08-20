@@ -22,6 +22,7 @@ public class ArrayListDemo {
 		for (Object ob : ar) {
 			// System.out.println("Normal--->"+ob);
 		}
+		
 		//ar.stream().forEach(ele -> System.out.println(ele));
 	
         Iterator<Object> it = ar.iterator();
@@ -37,7 +38,6 @@ public class ArrayListDemo {
 	ar2.add("Welcome");
 	ar2.add(2);
 	ar.add("India");
-	
 	ar.addAll(ar2);
 	 System.out.println("listtrdv-->"+ar);
 	

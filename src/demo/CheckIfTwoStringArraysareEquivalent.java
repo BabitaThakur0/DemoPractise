@@ -12,7 +12,7 @@ public class CheckIfTwoStringArraysareEquivalent {
 		 Output: true
 		 Explanation:
 		 wordi represents string "ab" + "c"
-		 -> "abe"
+		 -> "abc"
 		 word2 represents string "a" + "bc"
 		 -> "abc"
 		 The strings are the same, so return true.
