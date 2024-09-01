@@ -67,8 +67,8 @@ public class subListofTwoList {
 			
 		}
 		}
-		List<Integer> l = new ArrayList<>();
-		List<Integer> r = new ArrayList<>();
+		//List<Integer> l = new ArrayList<>();
+		//List<Integer> r = new ArrayList<>();
 		
 		return list;
 	}

@@ -7,6 +7,7 @@ public class ReverseString_19 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter String :");
 		String str = sc.next();
 		char ch[] = str.toCharArray();
 		int end = ch.length-1;
@@ -22,10 +23,7 @@ public class ReverseString_19 {
 		
 		}
 		String st = new String(ch);
-		System.out.println("string value"+ st);
-		System.out.println("Elements = ");
-	      for (int i = 0; i < ch.length; i++) 
-	         System.out.print(ch[i]);
+		System.out.println("string value : "+ st);
 		
 	}
 		
@@ -33,3 +31,9 @@ public class ReverseString_19 {
 	
 
 }
+/*
+Enter String :
+Hello
+string value : olleH
+
+*/

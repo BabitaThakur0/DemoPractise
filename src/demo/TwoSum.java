@@ -20,12 +20,7 @@ public class TwoSum {
 		}
 		System.out.println("The target value: ");
 		target = sc.nextInt();
-		/*System.out.println("The values are");
-		for(int i=0;i<n;i++)
-		{
-		System.out.println("value:" +value[i]);
 		
-		}
 		
 		
 		System.out.println("result:" +twoSum(value,target));
@@ -35,7 +30,7 @@ public class TwoSum {
 		   
 		   for(int i= 0; i<nums.length; i++)
 		   {
-			   for(int j = 0; j<nums.length;j++)
+			   for(int j = 1; j<nums.length;j++)
 			   {
 				   if(nums[i]+nums[j] == target)
 				   {
@@ -43,9 +38,12 @@ public class TwoSum {
 				   }
 			   }
 		   }
-		   return new int[] {-1};
+		   return new int[] {-1,-1};
 	   }
-	   */
+	   
 	}
 
-}
+
+
+
+

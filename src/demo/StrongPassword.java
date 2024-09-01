@@ -67,14 +67,18 @@ public class StrongPassword {
 			}
 		}
 			if(!uperCase) result++;
+		
 			if(!lowerCase) result++;
 			if(!digit) result++;
 			if(!SpecialChar) result++;
+			
 			if(n<6)
 			{
 				return Math.max(result,n-6);
+
 			}
-			
+			System.out.println("Result :"+result);
+
 		
 		
 		
