@@ -53,6 +53,7 @@ public class ReverseVowelsofaString {
 	}
 	private static boolean isVowel(char c) {
 		switch(c) {
+		
 		case 'a':
 		case 'e':
 		case 'i':
@@ -65,10 +66,7 @@ public class ReverseVowelsofaString {
 		case 'U':
 			
 			return true;
-			
-		
-		
-		default :return false;
+		 default :return false;
 		}
 	}
 

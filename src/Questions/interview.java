@@ -22,11 +22,11 @@ public class interview {
          start++;
          end--;
         // System.out.println("temp :" +temp);
-         newString = new String(ch);
-         System.out.println("Result :" +newString);
+        // newString = new String(ch);
+         //System.out.println("Result :" +newString);
 
     }
-  //  System.out.println("Result :" +newString);
+    System.out.println("Result :" +String.valueOf(ch));
 
 	}
 

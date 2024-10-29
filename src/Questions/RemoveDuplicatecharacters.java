@@ -23,12 +23,14 @@ public class RemoveDuplicatecharacters {
 		for(char x : ch)
 		{
 			hashset.add(x);
+			
 		}
 		for(char y : hashset)
-			System.out.print(" " +y);
+			System.out.print(" " +String.valueOf(y));
+		
 		
 	}
-
+		
 	
 
 }
